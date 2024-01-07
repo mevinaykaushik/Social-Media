@@ -1,0 +1,35 @@
+.Navbar {
+    width: 100%;
+    position: sticky;
+    background-color:rgb(224, 31, 144);
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid var(--border-color);
+    margin: 3px 2px;
+    color: white;
+   
+    
+
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2{
+            color: white;
+        }
+    }
+
+    .right-side {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .logout {
+            font-size: 1.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
